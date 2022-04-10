@@ -12,7 +12,7 @@ from searchers.mongodb.mongodb_searcher import MongodbSearcher
 app = FastAPI()
 
 origins = [
-    "http://localhost:3005",
+    "*",
 ]
 
 app.add_middleware(
